@@ -97,7 +97,7 @@ import postRoutes from "./routes/posts/post";
 //import roomKeyRouter from './routes/rooms/roomKey';
 //import liveRoomRouter from './routes/rooms/liveRoom';
 //import serversroutes from "./routes/invite/index";
-import settingsRouter from './routes/settings/index';
+//import settingsRouter from './routes/settings/index';
 //import stickpackroutes from "./routes/invite/index";
 //import shortsRoutes from "./routes/shorts/shorts";
 //import storiesRoutes from "./routes/stories/stories";
@@ -334,7 +334,7 @@ app.use('/api/channels', channelroutes);
 //app.use('/files/*', require('./files'));
 
 //setting route
-app.use('/settings', settingsRouter);
+//app.use('/settings', settingsRouter);
 //app.use('/themes', require('./themes').ThemeRouter)
 
 //app.use('/api', require('./routes/api'));
